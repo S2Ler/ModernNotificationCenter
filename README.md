@@ -1,4 +1,9 @@
 # ModernNotificationCenter
+[![Swift](https://img.shields.io/badge/Swift-3.0-orange.svg)](https://swift.org)
+[![SPM Ready](https://img.shields.io/badge/SPM-ready-orange.svg)](https://swift.org/package-manager/)
+[![Carthage-compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![codebeat badge](https://codebeat.co/badges/4245c8bb-a9a2-4b72-8354-139daca640a2)](https://codebeat.co/projects/github-com-diejmon-modernnotificationcenter)
+
 A lightweigth wrapper around Swift Foundation NotificationCenter, which doesn't require playing with stringly-typed API. 
 
 # Usage
