@@ -59,5 +59,10 @@ let token = NotificationCenter.default.addObserver { (notification: SystemNotifi
 // That's it!
 ```
 
+# TODO
+- [ ] Add CI for linux and iOS
+- [ ] Add more tests
+- [ ] Create a dependent repo which will have wrappers around system notifications
+
 # Credits 
 Special thanks to [objc.io swift talk](https://talk.objc.io/episodes/S01E28-typed-notifications-part-2) for the idea. 
