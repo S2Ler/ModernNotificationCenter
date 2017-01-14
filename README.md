@@ -1,5 +1,5 @@
 # ModernNotificationCenter
-A wrapper around Swift Foundation NotificationCenter, which doesn't require playing with stringly-typed API. 
+A lightweigth wrapper around Swift Foundation NotificationCenter, which doesn't require playing with stringly-typed API. 
 
 # Usage
 
