@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2273ECB4359B67C772458681C5D6C8803680FF33",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8C5CDD81BFD84F2ABA084B6224A1DA7CAAD6FE0A" : 9223372036854775807,
+    "2273ECB4359B67C772458681C5D6C8803680FF33" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8B97CF12-C53F-427B-86FF-E1D39F3FD357",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8C5CDD81BFD84F2ABA084B6224A1DA7CAAD6FE0A" : "..",
+    "2273ECB4359B67C772458681C5D6C8803680FF33" : "ModernNotificationCenter\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ModernNotificationCenter",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Xcode\/ModernNotificationCenter\/ModernNotificationCenter.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:diejmon\/ModernNotificationCenter.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2273ECB4359B67C772458681C5D6C8803680FF33"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.pixolio.com:caserunner\/ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8C5CDD81BFD84F2ABA084B6224A1DA7CAAD6FE0A"
+    }
+  ]
+}
