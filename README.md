@@ -9,6 +9,8 @@ A lightweigth wrapper around Swift Foundation NotificationCenter, which doesn't 
 
 # Usage
 
+[Example keyboard notifications](Notifications/KeyboardNotifications.swift)
+
 ## Custom notifications
 
 ```swift
