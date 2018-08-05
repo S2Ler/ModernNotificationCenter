@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "09313AA120CE3F7D00935AE3"
-               BuildableName = "ModernNotificationCenter__iOS_.framework"
-               BlueprintName = "ModernNotificationCenter (iOS)"
+               BlueprintIdentifier = "09313AAE20CE3F9300935AE3"
+               BuildableName = "ModernNotificationCenter.framework"
+               BlueprintName = "ModernNotificationCenter (macOS)"
                ReferencedContainer = "container:ModernNotificationCenter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "09313AA120CE3F7D00935AE3"
-            BuildableName = "ModernNotificationCenter__iOS_.framework"
-            BlueprintName = "ModernNotificationCenter (iOS)"
+            BlueprintIdentifier = "09313AAE20CE3F9300935AE3"
+            BuildableName = "ModernNotificationCenter.framework"
+            BlueprintName = "ModernNotificationCenter (macOS)"
             ReferencedContainer = "container:ModernNotificationCenter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "09313AA120CE3F7D00935AE3"
-            BuildableName = "ModernNotificationCenter__iOS_.framework"
-            BlueprintName = "ModernNotificationCenter (iOS)"
+            BlueprintIdentifier = "09313AAE20CE3F9300935AE3"
+            BuildableName = "ModernNotificationCenter.framework"
+            BlueprintName = "ModernNotificationCenter (macOS)"
             ReferencedContainer = "container:ModernNotificationCenter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
