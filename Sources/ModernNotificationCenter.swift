@@ -17,6 +17,10 @@ public class Token {
     self.center = center
   }
 
+  public func add(to array: inout [Token]) {
+    array.append(self)
+  }
+
   deinit {
     center.removeObserver(token)
   }
