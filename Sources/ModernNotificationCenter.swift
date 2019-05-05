@@ -17,6 +17,10 @@ public class Token {
     self.center = center
   }
 
+  public func add(to array: inout [Token]) {
+    array.append(self)
+  }
+
   deinit {
     center.removeObserver(token)
   }
@@ -25,7 +29,7 @@ public class Token {
 public extension NotificationCenter {
   private static let userInfoNoteKey = "com.diejmon.notification_center.note.key"
 
-  public func addObserver<Note: NotificationDescriptor & ExpressibleByNotification>(for object: Any? = nil,
+  func addObserver<Note: NotificationDescriptor & ExpressibleByNotification>(for object: Any? = nil,
                    queue: OperationQueue? = nil,
                    using block: @escaping (Note) -> ()) -> Token {
     let token = addObserver(forName: Note.notificationName, object: object, queue: queue) { (plainNotification) in
@@ -39,7 +43,7 @@ public extension NotificationCenter {
     return Token(token: token, center: self)
   }
 
-  public func addObserver<Note: NotificationDescriptor>(for object: Any? = nil,
+  func addObserver<Note: NotificationDescriptor>(for object: Any? = nil,
                    queue: OperationQueue? = nil,
                    using block: @escaping (Note) -> ()) -> Token {
     let token = addObserver(forName: Note.notificationName, object: object, queue: queue) { (plainNotification) in
@@ -53,7 +57,7 @@ public extension NotificationCenter {
     return Token(token: token, center: self)
   }
 
-  public func post<Note: NotificationDescriptor>(notification: Note, object: Any? = nil) {
+  func post<Note: NotificationDescriptor>(notification: Note, object: Any? = nil) {
     post(name: Note.notificationName, object: object, userInfo: [NotificationCenter.userInfoNoteKey: notification])
   }
 }
